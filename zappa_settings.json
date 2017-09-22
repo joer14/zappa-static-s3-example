@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "keep_warm": false,
+        "app_function": "app.app",
+        "profile_name": "joer14",
+        "s3_bucket": "zappa-statics-dev",
+        "aws_region": "us-east-2",
+        "static": {
+           "s3_bucket": "s3://lmbda/static",
+           "path": "/build",
+           "lambda_endpoint": "/api",
+       }
+    }
+}
